@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/245622a427.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>OnlineShop</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark lead">
+      <div class="logo-container">
+        <h1>WebShop</h1>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav-menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              >Cart</i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ShowCase  -->
+    <section class="bg-dark text-light p-5">
+      <div class="container d-lg-flex justify-content-between">
+        <div class="text-logo-wrapper">
+          <div class="d-flex">
+            <p class="section-text-wrapper lead">
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuri es, but also the leap into electronic
+              typesetting, remaining essentially unchanged. including versions o
+            </p>
+          </div>
+          <div class="square-container d-flex">
+            <div class="square-shape-1"></div>
+            <div class="square-shape-2"></div>
+            <div class="square-shape-3"></div>
+            <div class="square-shape-4"></div>
+            <div class="square-shape-5"></div>
+            <div class="square-shape-6"></div>
+          </div>
+        </div>
+        <div class="text-pic-wrapper">
+          <h1 class="text-center">
+            Order goods
+            <span class="text-warning">online</span>
+          </h1>
+          <img
+            class="section-picture img-fluid"
+            src="./img/section-picture.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <div class="shopping">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+<style>
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .logo-container {
+    color: white;
+    padding: 14px;
+  }
+  .collapse {
+    padding: 9px;
+  }
+
+  .section-text-wrapper {
+    width: 500px;
+    text-align: center;
+  }
+
+  .section-picture {
+    width: 500px;
+    border-radius: 9px;
+  }
+  .square-container {
+    height: 200px;
+    justify-content: space-around;
+  }
+  .square-shape-1 {
+    height: 20px;
+    width: 20px;
+    background-color: azure;
+    transform: rotate(35deg);
+  }
+  .square-shape-2 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 255, 255);
+    transform: rotate(45deg);
+    margin-top: 20px;
+  }
+  .square-shape-3 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 217, 255);
+    transform: rotate(30deg);
+    margin-top: 30px;
+  }
+  .square-shape-4 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(1, 114, 159);
+
+    transform: rotate(20deg);
+    margin-top: 20px;
+  }
+  .square-shape-5 {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 64, 0);
+    transform: rotate(55deg);
+  }
+  .square-shape-6 {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(251, 255, 0);
+
+    transform: rotate(65deg);
+  }
+</style>
